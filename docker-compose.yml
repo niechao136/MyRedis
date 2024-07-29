@@ -1,6 +1,6 @@
 services:
   redis:
-    image: redis:lts
+    image: redis:latest
     container_name: redis
     restart: always
     ports:
